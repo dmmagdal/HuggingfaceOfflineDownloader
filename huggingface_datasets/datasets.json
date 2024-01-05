@@ -1,0 +1,234 @@
+{
+    "hasRev": {
+        "wikitext": {
+            "wikitext-103-v1": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "wikitext-2-v1": [
+                "train", 
+                "test", 
+                "validation"
+            ]
+        },
+        "wiki40b": {
+            "ar": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "bg": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "ca": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "cs": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "da": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "de": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "el": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "en": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "es": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "et": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "fa": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "fi": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "fr": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "he": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "hi": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "hr": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "hu": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "id": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "it": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "ja": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "ko": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "lt": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "lv": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "ms": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "nl": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "no": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "pl": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "pt": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "ro": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "ru": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "sk": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "sl": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "sr": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "sv": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "th": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "tl": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "tr": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "uk": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "vi": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "zh-cn": [
+                "train", 
+                "test", 
+                "validation"
+            ],
+            "zh-tw": [
+                "train", 
+                "test", 
+                "validation"
+            ]
+        }
+    },
+    "noRev": {
+        "google/MusicCaps": [
+            "train"
+        ],
+        "google/trueteacher": [
+            "train"
+        ],
+        "google/wit": [
+            "train"
+        ]
+    }
+}
