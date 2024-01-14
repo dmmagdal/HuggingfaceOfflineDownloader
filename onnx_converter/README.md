@@ -23,7 +23,7 @@ Description: This folder exists to convert models from Huggingface (usually PyTo
 
 ### Converted models
 
-#### ONNX (optimum-cli)
+#### optimum-cli
 
  - Flan-T5
      - flan-t5-small (80M) [model](https://huggingface.co/dmmagdal/flan-t5-small-onnx) 792MB
