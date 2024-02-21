@@ -38,16 +38,15 @@ def main():
 		shutil.rmtree(cache_dir)
 
 	for gpt in gpt_neo + opt + gemma:
-		save_dir = gpt.replace('/', '_')
-		cache_dir = save_dir + "_tmp"
-		os.makedirs(cache_dir, exist_ok=True)
-		os.makedirs(save_dir, exist_ok=True)
-
 		# Special condition to skip the download for gemma if the 
 		# auth token is not specified.
 		if "gemma" in gpt and not token:
 			continue
 
+		save_dir = gpt.replace('/', '_')
+		cache_dir = save_dir + "_tmp"
+		os.makedirs(cache_dir, exist_ok=True)
+		os.makedirs(save_dir, exist_ok=True)
 		tokenizer = AutoTokenizer.from_pretrained(
 			gpt, cache_dir=cache_dir, use_auth_token=token
 		)
