@@ -35,3 +35,8 @@ Description: Download the desired models from Huggingface to local storage.
      - [bert-large-uncased](https://huggingface.co/bert-large-uncased) (340M)
      - [bert-large-cased](https://huggingface.co/bert-large-cased) (340M)
      - [google/mobilebert-uncased](https://huggingface.co/google/mobilebert-uncased)
+ - Gemma (Google)
+     - [google/gemma-2b](https://huggingface.co/google/gemma-2b)
+     - [google/gemma-2b-it](https://huggingface.co/google/gemma-2b-it)
+     - [google/gemma-7b](https://huggingface.co/google/gemma-7b)
+     - [google/gemma-7b-it](https://huggingface.co/google/gemma-7b-it)
