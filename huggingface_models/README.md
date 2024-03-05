@@ -4,6 +4,7 @@ Description: Download the desired models from Huggingface to local storage.
 
 
 ### Notes
+ - The `inference_model.py` script is going to run basic loop to perform inference for causalLM models or conditionalSeq2SeqLM models. The list of models it pulls from are in the file itself. It needs to be reworked to read locally where possible and specify full or half precision based on the model. It is also recommended to have the latest transformers, pytorch, and accelerate modules in the virtual environment before running the script.
 
 
 ### References
