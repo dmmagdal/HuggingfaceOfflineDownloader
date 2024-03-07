@@ -37,6 +37,7 @@ def main():
 	# model_id = "stabilityai/stablelm-2-zephyr-1_6b"
 	# model_id = "xlnet-large-cased"
 	# model_id = "xlnet-base-cased"
+	# model_id = "TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T"
 	token = "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"
 
 	# Notes:
@@ -54,6 +55,8 @@ def main():
 	# StableLM 2 Zephyr 1.6B can run with half precision
 	# XLNet large can run fine at full precision
 	# XLNet base can run fine at full precision
+	# TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T can run fine at full precision
+
 	
 	# Initialize tokenizer & model.
 	# tokenizer = T5Tokenizer.from_pretrained(model_id)
@@ -61,7 +64,8 @@ def main():
 	tokenizer = AutoTokenizer.from_pretrained(model_id, token=token)#, device_map="auto")
 	#model = AutoModelForSeq2SeqLM.from_pretrained(model_id)
 	#model = AutoModelForSeq2SeqLM.from_pretrained(model_id, torch_dtype=torch.float16)
-	model = AutoModelForCausalLM.from_pretrained(model_id, token=token)
+	#model = AutoModelForCausalLM.from_pretrained(model_id, token=token)
+	model = AutoModelForCausalLM.from_pretrained(model_id)
 	#model = AutoModelForCausalLM.from_pretrained(model_id, token=token, torch_dtype=torch.float16)
 
 	# Pass model to device.
