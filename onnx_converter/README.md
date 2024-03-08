@@ -65,7 +65,8 @@ Description: This folder exists to convert models from Huggingface (usually PyTo
      - flan-t5-xl (3B) [regular](https://huggingface.co/dmmagdal/flan-t5-xl-onnx-js) [quantized](https://huggingface.co/dmmagdal/flan-t5-xl-onnx-js-quantized)
      - flan-t5-xxl (11B) (regular not available) (quantized not available)
  - TinyLlama
-     - tinyllama-1.1B-intermediate-step-1431k-3T-onnx-js [regular](https://huggingface.co/dmmagdal/tinyllama-1.1B-intermediate-step-1431k-3T-onnx-js) [quantized](https://huggingface.co/dmmagdal/tinyllama-1.1B-intermediate-step-1431k-3T-onnx-js)
+     - tinyllama-1.1B-intermediate-step-1431k-3T-onnx-js [regular](https://huggingface.co/dmmagdal/tinyllama-1.1B-intermediate-step-1431k-3T-onnx-js) [quantized](https://huggingface.co/dmmagdal/tinyllama-1.1B-intermediate-step-1431k-3T-onnx-js-quantized)
+     - tinyllama-1.1B-chat-v1.0-onnx-js [regular](https://huggingface.co/dmmagdal/tinyllama-1.1B-chat-v1.0-onnx-js) [quantized](https://huggingface.co/dmmagdal/tinyllama-1.1B-chat-v1.0-onnx-js-quantized)
 
 
 ### References
