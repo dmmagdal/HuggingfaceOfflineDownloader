@@ -64,12 +64,15 @@ Description: This folder exists to convert models from Huggingface (usually PyTo
      - flan-t5-large (780M) [regular](https://huggingface.co/dmmagdal/flan-t5-large-onnx-js) [quantized](https://huggingface.co/dmmagdal/flan-t5-large-onnx-js-quantized)
      - flan-t5-xl (3B) [regular](https://huggingface.co/dmmagdal/flan-t5-xl-onnx-js) [quantized](https://huggingface.co/dmmagdal/flan-t5-xl-onnx-js-quantized)
      - flan-t5-xxl (11B) (regular not available) (quantized not available)
+ - TinyLlama
+     - tinyllama-1.1B-intermediate-step-1431k-3T-onnx-js [regular](https://huggingface.co/dmmagdal/tinyllama-1.1B-intermediate-step-1431k-3T-onnx-js) [quantized](https://huggingface.co/dmmagdal/tinyllama-1.1B-intermediate-step-1431k-3T-onnx-js)
 
 
 ### References
 
  - [Export a model to ONNX with optimum.exporters.onnx](https://huggingface.co/docs/optimum/exporters/onnx/usage_guides/export_a_model)
  - [Convert your models to ONNX with transformers.js](https://huggingface.co/docs/transformers.js/custom_usage#convert-your-models-to-onnx)
+ - [Upload models with huggingface-cli](https://huggingface.co/docs/huggingface_hub/guides/upload)
  - Google Model Releases
      - [Google BERT release](https://huggingface.co/collections/google/bert-release-64ff5e7a4be99045d1896dbc)
      - [Google T5 release](https://huggingface.co/collections/google/t5-release-65005e7c520f8d7b4d037918)
