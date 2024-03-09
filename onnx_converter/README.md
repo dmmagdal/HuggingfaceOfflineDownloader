@@ -67,6 +67,8 @@ Description: This folder exists to convert models from Huggingface (usually PyTo
  - TinyLlama
      - tinyllama-1.1B-intermediate-step-1431k-3T-onnx-js [regular](https://huggingface.co/dmmagdal/tinyllama-1.1B-intermediate-step-1431k-3T-onnx-js) [quantized](https://huggingface.co/dmmagdal/tinyllama-1.1B-intermediate-step-1431k-3T-onnx-js-quantized)
      - tinyllama-1.1B-chat-v1.0-onnx-js [regular](https://huggingface.co/dmmagdal/tinyllama-1.1B-chat-v1.0-onnx-js) [quantized](https://huggingface.co/dmmagdal/tinyllama-1.1B-chat-v1.0-onnx-js-quantized)
+ - Falcon
+     - falcon-rw-1b-onnx-js [regular](https://huggingface.co/dmmagdal/falcon-rw-1b-onnx-js) [quantized](https://huggingface.co/dmmagdal/falcon-rw-1b-onnx-js-quantized)
 
 
 ### References
