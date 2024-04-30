@@ -5,6 +5,7 @@
 # Python 3.10
 
 
+import os
 import torch
 # from transformers import T5Tokenizer, T5ForConditionalGeneration
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
