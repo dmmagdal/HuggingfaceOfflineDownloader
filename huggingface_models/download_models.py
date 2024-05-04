@@ -21,6 +21,7 @@ def main():
 	opt = ["facebook/opt-350m", "facebook/opt-125m", "facebook/opt-1.3b"]
 	mobile_bert = ["google/mobilebert-uncased"]
 	gemma = ["google/gemma-2b", "google/gemma-2b-it"]
+	tiny_llama = ["TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T", "TinyLlama/TinyLlama-1.1B-Chat-v1.0"]
 
 	# Download loops.
 	for t in t5:
@@ -37,7 +38,7 @@ def main():
 		model.save_pretrained(save_dir)
 		shutil.rmtree(cache_dir)
 
-	for gpt in gpt_neo + opt + gemma:
+	for gpt in gpt_neo + opt + gemma + tiny_llama:
 		# Special condition to skip the download for gemma if the 
 		# auth token is not specified.
 		if "gemma" in gpt and not token:
