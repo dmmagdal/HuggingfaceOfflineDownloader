@@ -1,6 +1,7 @@
-# flan_t5_raw_inference.py
-# Build a simple bot with Flan T5 to test out its text generation and
-# prompting capabilities.
+# inference.py
+# Simple script that runs a text generation (or text2text generation)
+# model for inference. This primarily is to test out a model's out of
+# the box prompting and generation capabilities.
 # Windows/MacOS/Linux
 # Python 3.10
 
