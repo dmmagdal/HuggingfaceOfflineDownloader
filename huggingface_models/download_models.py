@@ -12,7 +12,7 @@ def main():
 	token = False
 	if os.path.exists(auth_path):
 		with open(auth_path, "r") as f:
-			token = f.read()
+			token = f.read().strip("\n")
 
 	# Models.
 	t5 = ["google/flan-t5-small", "google/flan-t5-base", "google/flan-t5-large",]

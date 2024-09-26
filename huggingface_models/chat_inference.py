@@ -40,7 +40,7 @@ def main():
 		print("Path to .env file with huggingface token was not found")
 		exit(1)
 	with open(".env", "r") as f:
-		token = f.read()
+		token = f.read().strip("\n")
 	
 	# Initialize tokenizer & model.
 	# tokenizer = AutoTokenizer.from_pretrained(model_id, token=token)#, device_map="auto")

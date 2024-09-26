@@ -41,11 +41,12 @@ def main():
 	# model_id = "xlnet-base-cased"
 	# model_id = "TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T"
 	model_id = "meta-llama/llama-3.2-1B"
+	# model_id = "./meta-llama_Llama-3.2-1B"
 	if not os.path.exists(".env"):
 		print("Path to .env file with huggingface token was not found")
 		exit(1)
 	with open(".env", "r") as f:
-		token = f.read()
+		token = f.read().strip("\n")
 
 	# Notes:
 	# Flan-t5-xl (3B) can run on the server with half precision (float15)
