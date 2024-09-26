@@ -22,6 +22,7 @@ def main():
 	mobile_bert = ["google/mobilebert-uncased"]
 	gemma = ["google/gemma-2b", "google/gemma-2b-it"]
 	tiny_llama = ["TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T", "TinyLlama/TinyLlama-1.1B-Chat-v1.0"]
+	llama = ["meta-llama/Llama-3.2-1B", "meta-llama/Llama-3.2-1B-Instruct", "meta-llama/Llama-3.2-3B", "meta-llama/Llama-3.2-3B-Instruct"]
 
 	# Download loops.
 	for t in t5:
@@ -38,10 +39,10 @@ def main():
 		model.save_pretrained(save_dir)
 		shutil.rmtree(cache_dir)
 
-	for gpt in gpt_neo + opt + gemma + tiny_llama:
+	for gpt in gpt_neo + opt + gemma + tiny_llama + llama:
 		# Special condition to skip the download for gemma if the 
 		# auth token is not specified.
-		if "gemma" in gpt and not token:
+		if ("gemma" in gpt or "meta" in gpt) and not token:
 			continue
 
 		save_dir = gpt.replace('/', '_')

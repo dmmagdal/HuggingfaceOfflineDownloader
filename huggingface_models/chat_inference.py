@@ -34,6 +34,8 @@ def main():
 	# model_id = "TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T"
 	# model_id = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 	model_id = "./models/TinyLlama_TinyLlama-1.1B-Chat-v1.0"
+	model_id = "meta-llama/Llama-3.2-1B-Instruct"
+	# model_id = "./models/meta-llama_Llama-3.2-1B-Instruct"
 	if not os.path.exists(".env"):
 		print("Path to .env file with huggingface token was not found")
 		exit(1)
